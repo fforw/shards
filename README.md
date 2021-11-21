@@ -1,3 +1,5 @@
-# Simple Starter
+# shards
 
-Simple JS build starter for simple, client-only demos.
+3D-port of one of my [generative art projects](https://github.com/fforw/gen-08/).
+
+WIP

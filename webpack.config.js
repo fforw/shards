@@ -1,3 +1,4 @@
+
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
@@ -108,7 +109,7 @@ module.exports = (env,argv) => {
 
                     {
                         test: /\.(glsl|frag|vert)$/,
-                        exclude: /node_modules/,
+                        //exclude: /node_modules/,
                         use: [
                             "raw-loader",
                             {
